@@ -1,0 +1,30 @@
+{
+  "name": "photo-backup",
+  "version": "1.0.0",
+  "description": "Locally backup photos from Cloud providers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyhamm/photo-backup.git"
+  },
+  "keywords": [
+    "Photos",
+    "Google",
+    "Photos",
+    "Flickr",
+    "SmugMug",
+    "Imgur"
+  ],
+  "author": "Jeremy Hamm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyhamm/photo-backup/issues"
+  },
+  "homepage": "https://github.com/jeremyhamm/photo-backup#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
