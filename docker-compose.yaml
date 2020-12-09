@@ -1,8 +1,16 @@
 version: "3.8"
 services:
   api:
-    image: node:latest
+    container_name: api-container
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/server
+    ports:
+      - "3000:3000"
     networks:
       - backend
-networks:
+networks: 
   backend:
+    name: backend
